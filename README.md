@@ -31,6 +31,12 @@ Este é o frontend do projeto **Libra Translate**, desenvolvido com React Native
    npm install
    ```
 
+   > ⚠️ Caso ocorra um erro de dependência (ERESOLVE), especialmente relacionado ao `styled-components` ou `react-dom`, use o seguinte comando alternativo:
+
+```bash
+npm install --legacy-peer-deps
+
+
 3. **Configure o endereço da API**  **SE NECESSÁRIO FORA DE CASA** 
 
    No código-fonte (geralmente em um arquivo `config.js`, `api.js` ou direto onde for feita a requisição), atualize a URL da API:
